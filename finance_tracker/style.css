@@ -1,0 +1,177 @@
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: aliceblue;
+  cursor: grab;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.527);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.39);
+  cursor: grab;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-image: url(./image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: azure;
+}
+
+.container {
+  max-width: 100%;
+
+  margin: 0 auto;
+  background-color: rgba(10, 10, 10, 0.613);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: azure;
+}
+
+.balance {
+  text-align: center;
+  margin-bottom: 30px;
+  color: azure;
+  width: 50%;
+}
+
+.transactions {
+  margin-bottom: 30px;
+  color: azure;
+  width: 50%;
+}
+
+.transaction-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.transaction-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.select {
+  width: 100%;
+  border-radius: 5px;
+  height: 2.3rem;
+  padding: 8px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+ul li .description {
+  margin-right: 10px;
+}
+
+ul li .amount {
+  float: right;
+}
+
+.income {
+  color: rgb(0, 255, 0);
+  font-weight: bold;
+}
+
+.expense {
+  color: rgb(255, 140, 0);
+  font-weight: bold;
+}
+
+.input-form {
+  text-align: center;
+  margin-top: 20px;
+  color: azure;
+  width: 50%;
+  position: relative;
+}
+
+form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 10px 16px;
+  background-color: #0dc413;
+  margin-top: 5px;
+  color: white;
+  position: relative;
+  left: 0;
+  border: none;
+  width: 7rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.budget-container {
+  margin-top: 20px;
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  position: relative;
+  left: 55%;
+  top: -25rem;
+}
+
+.budget-container h2 {
+  margin-bottom: 10px;
+}
+
+.budget-container input {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.budget-container h3 {
+  margin-top: 10px;
+}
+
+.container .chart {
+  width: 40%;
+  position: relative;
+  left: 62%;
+  top: -25rem;
+  height: 25rem;
+}
